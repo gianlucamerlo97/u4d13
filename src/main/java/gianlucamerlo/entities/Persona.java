@@ -1,4 +1,4 @@
 package gianlucamerlo.entities;
 
-public class PersonaDAO {
+public class Persona {
 }

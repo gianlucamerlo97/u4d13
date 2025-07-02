@@ -1,4 +1,4 @@
-package gianlucamerlo.entities;
+package gianlucamerlo.DAO;
 
 public class PartecipazioneDAO {
 }

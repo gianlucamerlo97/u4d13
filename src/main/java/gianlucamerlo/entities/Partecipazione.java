@@ -1,4 +1,4 @@
 package gianlucamerlo.entities;
 
-public class LocationDAO {
+public class Partecipazione {
 }
