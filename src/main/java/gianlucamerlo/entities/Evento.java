@@ -4,13 +4,14 @@ import gianlucamerlo.enums.TipoEvento;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
+import java.util.UUID;
 
 @Entity
 @Table(name = "evento")
 public class Evento {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private UUID id;
     @Column(name = "titolo",nullable = false)
     private String titolo;
     @Column(name = "data", nullable = false)

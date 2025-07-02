@@ -25,13 +25,5 @@ public class EventiDAO {
         if (found == null)throw new NotFoundException(id);
         return found;
     }
-    public void delete(long id){
-        Evento found= this.getById(id);
-        EntityTransaction transaction=  entityManager.getTransaction();
-        transaction.begin();
-        entityManager.remove(found);
-        transaction.commit();
-        System.out.println("Evento eliminato con successo");
 
-    }
 }
